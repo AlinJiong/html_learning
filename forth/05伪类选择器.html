@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+
+            /* lv ha（lv 好） 顺序 */
+            /* 1.未访问的链接 a:link 把没有点击过的链接徐选出来 */
+            a:link {
+                color: #333;
+                text-decoration: none;
+            }
+
+            /* 2. a:visited 选择访问过的链接 */
+            a:visited {
+                color: orange;
+            }
+
+            /* 3.a:hover 鼠标经过的链接 */
+            a:hover {
+                color: skyblue;
+            }
+
+            /* 4. a:active鼠标点击的链接 */
+            a:active {
+                color: green;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <a href="http://www.sogou.com">小猪</a> <br>
+        <a href="#">小猪佩奇</a> <br>
+        <a href="http://www.baidu.com" target="_blank">访问</a><br>
+        <a href="http://www.qq.com">未访问</a><br>
+    </body>
+
+</html>
